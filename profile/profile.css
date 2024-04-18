@@ -1,0 +1,45 @@
+h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background: green;
+    color: white;
+}
+
+p {
+    color: blueviolet;
+}
+
+#dob {
+    color: rgb(86, 68, 61);
+    font-weight: bold;
+}
+
+#about {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: darkolivegreen;
+}
+
+#prof-img {
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#redbox {
+    background-color: red;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+}
+
+/* #image {
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+} */
