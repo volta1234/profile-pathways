@@ -15,43 +15,74 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="profile.css">
   <title>profile</title>
   <link>
 </head>
 
 <body>
-  <div id="image">
-    <h1>Calvince Ogwel</h1>
-    <div id="redbox"></div>
-    <img id="prof-img"
-      src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      >
-
-    <h2 id="dob">Date of Birth</h2>
-    <p>08/08/1990</p>
-    <h2>Academic qualifications</h2>
-    <ul class="list-group">
-      <li class="list-group-element">masters </li>
-      <li class="list-group-element">bachelors</li>
-      <li class="list-group-element">Highschool</li>
-    </ul>
-    <h2 id="about">Simple questions about your life in programmming</h2>
-    <div >
-      <p>1. Goodmorning</p>
-      <p>2. What is your favourite programming language?</p>
-      <p>3. What is your experience in programming?</p>
-      <p>4. What was your first year in software development field?</p>
-    </div>
-    <h2> A one sentence description of who i am</h2>
-    <ul >A software developer is a highly proficient individual
-      proficient
-      in various programming languages and methodologies, responsible for conceptualizing, designing,
-      implementing,
-      and maintaining software applications, systems, or platforms to address specific needs or enhance
-      functionality
-      in diverse domains such as web development, mobile applications, or enterprise software solutions.</ul>
   </div>
-</body>
+  <div class="card container">
+    <div class="profile-card">
+      <image class="profile-photo"
+        src="https://media.istockphoto.com/id/518552551/photo/male-silhouette-profile-picture-with-question-mark.jpg?s=1024x1024&w=is&k=20&c=URTKr184RsyT5KeEooxj5o_JtJkEAh-M8TyHAokqDqY=">
+      </image>
+    </div>
+    <div id="my-info">
+      <p style="font-weight: bold; font-size: 20px;">Calvince Ogwel <button style=" font-size: 15px;"
+          class="verifynow"><span class="material-symbols-outlined">
+            verified_user
+          </span>Verify now</button></p>
+      <p>Head of sales at Fination Global Limited - Kenya</p>
+      <p style="opacity: 0.8;">Nairobi County, Kenya <button class="contactinfo"> Contact info</button></p>
+    </div>
+    <div class="workexperience">
+      <p><span style="margin-left: 280px;" class="material-symbols-outlined"> edit </span></p>
+      <button style="border: none; background-color: white; color: blue; text-decoration: underline;">Fiantion Global
+        Limited </button>
+      <p>Technical University of Mombasa</p>
+    </div>
+    <p style="margin-top: 30px; color: blue;">500+ connections</p>
+    <div class="card-body">
+      <div style="margin-left: -20px;">
+        <button class="buttons1 profile1">Open to</button>
+        <button class="buttons1 profile2">Add profile section</button>
+        <button class="buttons1 profile2">Enhance profile</button>
+        <button class="buttons1">More </button>
+      </div>
+      <div class=" open-to-work card">
+        <p style="font-weight: bold;">Open to work <span style="margin-left: 930px;" class="material-symbols-outlined">
+            edit </span></p>
+        <p>Electronics and Instrumentation engineer, fullstack software developer</p>
+        <p style="color: blue;">Show details</p>
+      </div>
+    </div>
+  </div>
+  <div class="card  container">
+    <p style="font-weight: bold; font-size: 20px;">Suggested for you</p>
+    <p class="private-to-you"><span class="material-symbols-outlined">
+        visibility
+      </span>Private to you</p>
+    <div class="prompcontainer">
+      <div class="card prompt1">
+        <p style="font-weight: bold;">Are you still working at Fination Global Limited? <span
+            style="margin-left: 125px;" class="material-symbols-outlined">
+            close
+          </span></p>
+        <P>Keeping your profile up-to-date helps you attract the right opportunities</P>
+        <button class="last-button1">Confirm current position</button>
+      </div>
+      <div class="card prompt2">
+        <p style="font-weight: bold;">Add github projects that showcase your skills <span style="margin-left: 140px;"
+            class="material-symbols-outlined">
+            close
+          </span></p>
+        <P>Show recruiters how you put your skills into use by adding projects to your profile</P>
+        <button class="last-button2">Add project</button>
+      </div>
+    </div>
+  </div>
 
 </html>

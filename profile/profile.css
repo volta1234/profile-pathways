@@ -1,45 +1,112 @@
-h1 {
-    color: rgba(0, 0, 0, 0.8);
-    font-family: Arial, Helvetica, sans-serif;
+.profile-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: -235px;
+    margin-left: 20px;
 }
 
-ul {
-    background: green;
+.profile-card {
+    height: 150px !important;
+    background-image: url("https://media.istockphoto.com/id/1356364268/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-keyboard-screens-show-coding.jpg?s=2048x2048&w=is&k=20&c=RKQ2PtlwnwfgZRRiEJUIszBxVjAyCFLxteBxbR6Cli0=");
+    width: 1139px;
+    margin-left: -15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.verifynow {
+    margin-left: 10px;
+    border: 2px dotted blue;
+    border-radius: 30px;
+    background-color: white;
+    color: blue;
+    display: inline-flex;
+    align-items: center;
+    height: 23px;
+}
+
+#my-info {
+    margin-top: 60px;
+}
+
+.card {
+    margin-top: 20px !important;
+}
+
+.prompt1 {
+    width: 48%;
+    position: absolute;
+    background-color: #ebf0fa;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.prompt2 {
+    width: 48%;
+    position: relative;
+    margin-left: 52%;
+    background-color: #ebf0fa;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contactinfo {
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.workexperience {
+    margin-left: 70%;
+    margin-top: -150px;
+}
+
+.buttons1 {
+    border-radius: 30px;
+    background-color: white;
+    margin-right: 10px;
+    height: 28px;
+}
+
+.profile1 {
+    background-color: blue;
     color: white;
 }
 
-p {
-    color: blueviolet;
+.profile2 {
+    color: blue;
 }
 
-#dob {
-    color: rgb(86, 68, 61);
-    font-weight: bold;
-}
-
-#about {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color: darkolivegreen;
-}
-
-#prof-img {
-    left: 200px;
-    width: 200px;
-    height: 200px;
-    position: relative;
-}
-
-#redbox {
-    background-color: red;
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    z-index: 3;
-}
-
-/* #image {
+.open-to-work {
+    background-color: #ccd9ff;
     padding: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-} */
+    margin-left: -20px;
+    border-radius: 10px;
+    border: none;
+    width: auto;
+}
+
+.private-to-you {
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    height: 23px;
+    opacity: 0.8;
+}
+
+.last-button1 {
+    background-color: #e6ecff !important;
+    border: 1px solid darkgrey;
+    width: 40%;
+    border-radius: 30px;
+}
+
+.last-button2 {
+    background-color: #e6ecff !important;
+    border: 1px solid darkgrey;
+    width: 20%;
+    border-radius: 30px;
+}
