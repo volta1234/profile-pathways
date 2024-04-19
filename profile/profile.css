@@ -72,10 +72,15 @@
 .profile1 {
     background-color: blue;
     color: white;
+    border: 1px solid black;
+}
+.more {
+    border: 1px solid black;
 }
 
 .profile2 {
     color: blue;
+    border: 1px solid blue;
 }
 
 .open-to-work {
@@ -109,4 +114,7 @@
     border: 1px solid darkgrey;
     width: 20%;
     border-radius: 30px;
+}
+.last-div {
+    height: auto;
 }
